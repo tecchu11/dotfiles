@@ -1,0 +1,7 @@
+java zulu-11.50.19
+golang 1.17.7
+terraform 1.1.9
+nodejs 17.5.0
+python 3.9.10
+awscli 2.4.25
+pre-commit 2.18.0
