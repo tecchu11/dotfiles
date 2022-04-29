@@ -1,0 +1,7 @@
+[user]
+	name = tecchu11
+	email = agdjmp.ajtt@gmail.com
+[core]
+	autocrlf = input
+	symlinks = true
+	excludesfile = ~/.gitignore_global
