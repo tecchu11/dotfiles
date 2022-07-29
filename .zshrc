@@ -60,6 +60,7 @@ alias  ls='ls -Ga'
 # pip and pipenv
 eval "`pip completion --zsh`"
 eval "$(_PIPENV_COMPLETE=zsh_source pipenv)"
+export PIPENV_VENV_IN_PROJECT=true
 
 # npm
 source <(npm completion zsh)
