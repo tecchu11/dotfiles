@@ -45,14 +45,13 @@ then
   compinit
 fi
 
-# Language
-export LANG=ja_JP.UTF-8
-
 # Git
 export PATH=/usr/bin/git:$PATH
 
 # Custom alias
 alias  ls='ls -Ga'
+## For Localstack alias
+alias  awslocal='aws  --endpoint-url=http://localhost:4566'
 
 # asdf
 . $(brew --prefix asdf)/libexec/asdf.sh
