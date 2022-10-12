@@ -62,7 +62,9 @@ eval "$(_PIPENV_COMPLETE=zsh_source pipenv)"
 export PIPENV_VENV_IN_PROJECT=true
 
 # terraform (via terraform --install-autocomplete)
+autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C ${HOME}/.asdf/shims/terraform terraform
 
 # aws cli
+autoload -U +X bashcompinit && bashcompinit
 complete -C ${HOME}/.asdf/shims/aws_completer aws
