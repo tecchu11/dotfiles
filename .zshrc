@@ -67,3 +67,6 @@ source <(npm completion zsh)
 # terraform (via terraform --install-autocomplete)
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C ${HOME}/.asdf/shims/terraform terraform
+
+# kubectl 
+source <(kubectl completion zsh)

@@ -60,7 +60,7 @@ module.exports = {
         unibody: 'true',
         poketab: 'true',
     },
-    plugins: ["hyper-atom-dark-vibrancy"],
+    plugins: ["hyperterm-cyberpunk"],
 
     localPlugins: [],
     keymaps: {
