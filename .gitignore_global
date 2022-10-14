@@ -1,5 +1,6 @@
-# idea
+# jetbrains
 .idea
+.fleet
 
 # for os x
 .DS_Store
