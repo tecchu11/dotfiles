@@ -2,7 +2,7 @@
 module.exports = {
     config: {
         updateChannel: 'stable',
-        fontSize: 14,
+        fontSize: 13,
         fontFamily: 'MesloLGS NF',
         fontWeight: 'normal',
         fontWeightBold: 'bold',
@@ -60,7 +60,7 @@ module.exports = {
         unibody: 'true',
         poketab: 'true',
     },
-    plugins: ["hyperterm-cyberpunk"],
+    plugins: ["hyper-vscode-github-auto-theme"],
 
     localPlugins: [],
     keymaps: {
