@@ -1,10 +1,10 @@
-java temurin-17.0.4+8
-golang 1.19.2
-terraform 1.4.6
+java temurin-17.0.7+7
+golang 1.21.0
+terraform 1.5.2
 nodejs 18.7.0
-python 3.9.10
+python 3.11.5
 awscli 2.4.25
-pre-commit 2.18.0
+pre-commit 3.3.3
 protoc 3.20.1
 kind 0.17.0
 kubectx 0.9.4
