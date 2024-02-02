@@ -1,7 +1,7 @@
 java temurin-17.0.7+7
-golang 1.21.0
-terraform 1.5.2
-nodejs 18.7.0
+golang 1.21.6
+terraform 1.7.1
+nodejs 20.9.0
 python 3.11.5
 awscli 2.4.25
 pre-commit 3.3.3
@@ -12,6 +12,6 @@ kubectl 1.26.1
 kubeseal 0.19.4
 k9s 0.27.0
 gradle 8.0.2
-cue 0.4.3
+cue 0.7.0
 kustomize 5.0.3
 helm 3.12.0

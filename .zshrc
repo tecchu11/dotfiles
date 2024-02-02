@@ -48,6 +48,13 @@ fi
 # Git
 export PATH=/usr/bin/git:$PATH
 
+# Go Bin
+export PATH=$HOME/go/bin:$PATH
+
+# Cue
+export PATH=$HOME/.bin:$PATH
+
+
 # Custom alias
 alias  ls='ls -Ga'
 ## For Localstack alias
@@ -56,8 +63,7 @@ alias  awslocal='aws  --endpoint-url=http://localhost:4566'
 # asdf
 . $(brew --prefix asdf)/libexec/asdf.sh
 
-# pip and pipenv
-eval "`pip completion --zsh`"
+# pipenv
 eval "$(_PIPENV_COMPLETE=zsh_source pipenv)"
 export PIPENV_VENV_IN_PROJECT=true
 

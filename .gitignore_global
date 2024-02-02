@@ -5,5 +5,3 @@
 # for os x
 .DS_Store
 
-# misc
-.terraform.lock.hcl
