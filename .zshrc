@@ -72,6 +72,5 @@ autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C ${HOME}/.asdf/shims/terraform terraform
 
 # aws cli
-autoload -U +X bashcompinit && bashcompinit
 complete -C ${HOME}/.asdf/shims/aws_completer aws
 
