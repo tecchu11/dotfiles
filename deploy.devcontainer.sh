@@ -16,6 +16,4 @@ for dotfile in "$WORK_DIR"/.??* ; do
 done
 echo "$BLUE [INFO] Locate dotfiles $NC"
 
-/bin/zsh -c "$(source $HOME/.zshrc)"
-
 echo "$BLUE [INFO] Install Done. Please run source ~/.zshrc $NC"
