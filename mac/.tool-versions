@@ -1,4 +1,4 @@
-java temurin-17.0.9+9
+java temurin-17.0.12+7
 golang 1.23.0
 terraform 1.7.3
 nodejs 22.6.0
