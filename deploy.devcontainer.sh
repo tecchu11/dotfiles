@@ -6,8 +6,7 @@ NC="\033[0m"
 
 # Install Zinit (See https://github.com/zdharma-continuum/zinit)
 echo "$BLUE [INFO] Install Zinit $NC"
-bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
-zinit self-update
+NO_INPUT=1 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 
 # link dotfiles
 WORK_DIR="$(cd "$(dirname "$0")" && pwd )"/devcontainer
