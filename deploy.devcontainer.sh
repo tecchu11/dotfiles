@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 BLUE="\033[0;34m"
 RED="\033[0;31m"
@@ -15,5 +15,7 @@ for dotfile in "$WORK_DIR"/.??* ; do
   ln -fnsv "$dotfile" "$HOME"
 done
 echo "$BLUE [INFO] Locate dotfiles $NC"
+
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
 
 echo "$BLUE [INFO] Install Done. Please run source ~/.zshrc $NC"
