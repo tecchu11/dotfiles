@@ -16,7 +16,7 @@ install_brew() {
 
 install_asdf() {
 	echo "[INFO] Install asdf"
-	curl -o asdf.tar.gz -L https://github.com/asdf-vm/asdf/releases/download/v0.16.4/asdf-v0.16.4-darwin-arm64.tar.gz
+	curl -o asdf.tar.gz -L https://github.com/asdf-vm/asdf/releases/download/v0.16.4/asdf-v0.16.4-linux-arm64.tar.gz
 	sudo tar -xzf asdf.tar.gz -C /usr/local/bin
 	rm asdf.tar.gz
 }
