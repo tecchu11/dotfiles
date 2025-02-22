@@ -61,7 +61,8 @@ alias  ls='ls -Ga'
 alias  awslocal='aws  --endpoint-url=http://localhost:4566'
 
 # asdf
-. $(brew --prefix asdf)/libexec/asdf.sh
+export ASDF_DATA_DIR="$HOME/.asdf"
+export PATH="$ASDF_DATA_DIR/shims:$PATH"
 
 # pipenv
 eval "$(_PIPENV_COMPLETE=zsh_source pipenv)"

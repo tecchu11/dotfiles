@@ -6,7 +6,7 @@ source "$WORK_DIR"/helper/lib.sh
 
 if [ "$(uname)" == "Darwin" ] ; then
     echo "$WORK_DIR/mac/Brewfile"
-    brew bundle --file "$WORK_DIR/mac/Brewfile"
+    brew bundle --global
 fi
 
 add_asdf_plugin $HOME/.tool-versions
