@@ -29,6 +29,7 @@ zinit wait lucid light-mode for \
     zsh-users/zsh-syntax-highlighting \
     zsh-users/zsh-autosuggestions
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+zstyle ':completion:*:default' menu select=1
 
 # p10k config with zinit
 zinit ice depth=1
