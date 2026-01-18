@@ -40,8 +40,8 @@ if type brew &>/dev/null
 then
   FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
   
-  autoload -Uz compinit
-  compinit
+  autoload -U +X bashcompinit && bashcompinit
+  autoload -Uz compinit && compinit
 fi
 
 # Go Bin
@@ -58,7 +58,6 @@ export ASDF_DATA_DIR="$HOME/.asdf"
 export PATH="$ASDF_DATA_DIR/shims:$PATH"
 
 # terraform (via terraform --install-autocomplete)
-autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C ${HOME}/.asdf/shims/terraform terraform
 
 # aws cli
