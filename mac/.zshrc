@@ -29,7 +29,6 @@ zinit wait lucid light-mode for \
     zsh-users/zsh-syntax-highlighting \
     zsh-users/zsh-autosuggestions
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-zstyle ':completion:*:default' menu select=1
 
 # p10k config with zinit
 zinit ice depth=1
@@ -45,28 +44,18 @@ then
   compinit
 fi
 
-# Git
-export PATH=/usr/bin/git:$PATH
-
 # Go Bin
 export PATH=$HOME/go/bin:$PATH
 
 # Cue
 export PATH=$HOME/.bin:$PATH
 
-
 # Custom alias
 alias  ls='ls -Ga'
-## For Localstack alias
-alias  awslocal='aws  --endpoint-url=http://localhost:4566'
 
 # asdf
 export ASDF_DATA_DIR="$HOME/.asdf"
 export PATH="$ASDF_DATA_DIR/shims:$PATH"
-
-# pipenv
-eval "$(_PIPENV_COMPLETE=zsh_source pipenv)"
-export PIPENV_VENV_IN_PROJECT=true
 
 # terraform (via terraform --install-autocomplete)
 autoload -U +X bashcompinit && bashcompinit
